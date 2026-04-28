@@ -21,6 +21,21 @@ text-shadow: 10px 10px rgba(0, 0, 0, 0.413);}
     text-indent: 50px;
     word-spacing: 30px; */
     font: italic small-caps bold 16px/30px 'poppins', sans-serif;
-    
-
+}
+.box{
+    width: 200px;
+    height: 200px;
+    /* background-image: url(./Images/pics.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+    margin:10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    background-color: rebeccapurple;
+    border-radius: 10px 5px 5px 10px;
+    border: 5px dotted black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/pics.jpg);
+    color: rgba(0, 0, 0, 0.669);
+    opacity: .5;
 }
