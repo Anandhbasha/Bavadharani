@@ -39,3 +39,33 @@ text-shadow: 10px 10px rgba(0, 0, 0, 0.413);}
     color: rgba(0, 0, 0, 0.669);
     opacity: .5;
 }
+
+/* Static
+Fixed
+Sticky
+Relative
+Absolute
+*/
+/* .newtext{
+    position: fixed;
+    width: 100%;
+    top:150px
+} */
+ .newtext{
+    position: sticky;
+    top: 0;
+    }
+.boxes{
+    position: relative;
+    width: 200px;   
+    height: 200px;
+    background-color: red;
+}
+.box1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 0;
+    left: 0;
+}
