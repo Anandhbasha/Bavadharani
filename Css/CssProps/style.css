@@ -1,0 +1,59 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* margin: 10px; */
+    /* transform: translateX(10px); */
+    /* transform: rotate(45deg); */
+    /* transform: scale(1.2); */
+    transition: all 0.5s ease;
+    overflow:scroll ;
+}
+
+.box:hover{
+    background-color: blue;
+    transform: translateX(10px);
+    transition: all 0.5s ease;
+}
+a{
+    text-decoration: none;
+}
+a::after{
+    content:"";
+    height: 3px;
+    background-color: red;
+    
+   
+}
+a:hover::after{
+    width: 5%;
+    transition: all 0.5s ease;
+     display: block;
+}
+h1::first-letter{
+    color: red;
+}
+.boxes{
+    display: flex;
+    gap: 10px;
+}
+/* .box:nth-child(even){
+    background-color: green;
+} */
+
+/* .box:first-child{
+    background-color: green;
+} */
+
+.box:last-child{
+    background-color: green;
+}
+p::selection{
+    background-color: yellow;
+}
+.box2{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    
+}
