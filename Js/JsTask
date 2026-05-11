@@ -1,0 +1,111 @@
+JavaScript Operators Tasks (Only Your Completed Topics)
+
+#Arithmetic Operator Tasks
+
+1. Add two numbers and print the result
+2. Subtract 50 from 100
+3. Multiply 12 and 5
+4. Divide 144 by 12
+5. Find remainder when 25 is divided by 4
+6. Use ++ operator and print value before increment
+7. Use ++ operator and print value after increment
+8. Use -- operator and print value before decrement
+9. Use -- operator and print value after decrement
+10. Calculate (10+20)*2
+11. Calculate 100/5+10
+12. Calculate 50-(5*6)
+13. Calculate (8*2)+(20/5)
+14. Calculate 40%6+10
+15. Predict output of:
+
+
+let a = 5
+console.log(a++ + ++a)
+
+
+
+
+Comparison Operator Tasks
+
+16. Check whether 20 is greater than 15
+17. Check whether 10 is less than 2
+18. Check whether 50 is greater than or equal to 50
+19. Check whether 30 is less than or equal to 25
+20. Compare 100 == "100"
+21. Compare 100 === "100"
+22. Check 25 != 30
+23. Check 40 == 40
+24. Check "5" === 5
+25. Predict output:
+
+
+console.log(10 > 5 == true)
+
+
+
+
+Logical Operator Tasks
+
+26. Check:
+
+
+10>5 && 20>10
+
+
+27. Check:
+
+
+10<5 || 20>10
+
+
+28. Use ! operator for:
+
+
+10==10
+
+
+29. Predict output:
+
+
+console.log(10>5 && 5>10 || 20==20)
+
+
+
+
+Assignment + Ternary Tasks
+
+30. Create variable x=10 and perform:
+
+
+x+=20
+x*=2
+x-=10
+
+
+Print final value.
+
+31. Use ternary operator:
+    If age is greater than or equal to 18 print "Adult" else "Minor"
+
+32. Use ternary operator:
+    If number is even print "Even" else "Odd"
+
+33. Predict output:
+
+
+let a = 10
+a += 5
+a *= 2
+console.log(a)
+
+
+34. Predict output:
+
+
+console.log(5>2 ? "Yes" : "No")
+
+
+35. Predict output:
+
+
+console.log(10<5 ? 100 : 200)
