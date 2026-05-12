@@ -109,3 +109,79 @@ console.log(5>2 ? "Yes" : "No")
 
 
 console.log(10<5 ? 100 : 200)
+
+
+
+whileLoop
+
+# JavaScript `while` Loop Tasks – Hard Level (30 Tasks)
+
+1. Print numbers from 100 to 1 using a `while` loop.
+
+2. Find the sum of all even numbers between 1 and 500.
+
+3. Reverse a number using a `while` loop.
+
+4. Check whether a number is a palindrome.
+
+5. Find the factorial of a number using `while`.
+
+6. Count the number of digits in a number.
+
+7. Find the largest digit in a number.
+
+8. Find the smallest digit in a number.
+
+9. Print the multiplication table of a number in reverse order.
+
+10. Find the sum of digits of a number repeatedly until a single digit comes.
+    Example: `9875 → 9+8+7+5 = 29 → 2+9 = 11 → 1+1 = 2`
+
+11. Check whether a number is an Armstrong number.
+
+12. Check whether a number is a Strong number.
+
+13. Print all Armstrong numbers between 1 and 1000.
+
+14. Print all prime numbers between 1 and 200 using `while`.
+
+15. Find the HCF (Highest Common Factor) of two numbers.
+
+16. Find the LCM of two numbers using `while`.
+
+17. Convert a decimal number to binary using `while`.
+
+18. Convert a binary number to decimal using `while`.
+
+19. Find whether a number is a perfect number.
+
+20. Print Fibonacci series until the value exceeds 1000.
+
+21. Find the second largest digit in a number.
+
+22. Remove all zeros from a number.
+    Example: `102030 → 123`
+
+23. Check whether a number contains duplicate digits.
+
+24. Find the frequency of each digit in a number.
+
+25. Print all factors of a number using `while`.
+
+26. Find whether a number is a neon number.
+
+27. Rotate digits of a number to the left by one position.
+    Example: `1234 → 2341`
+
+28. Rotate digits of a number to the right by one position.
+    Example: `1234 → 4123`
+
+29. Create a number guessing game using `while` loop and `prompt()`.
+
+30. ATM Simulation using `while`
+
+* Show menu repeatedly
+* Deposit
+* Withdraw
+* Balance Check
+* Exit only when user chooses exit option.

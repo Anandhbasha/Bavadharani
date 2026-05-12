@@ -328,3 +328,9 @@ console.log(total);
 
 //do while,,,
 //for
+// forof
+// for in
+// foreach
+// map
+// reduce
+// filter
