@@ -90,115 +90,241 @@
 
 
 // Datatypes
-// premitive 
-// number
-let a = 10
-// string
-a="arun"
-// boolean
-a=true
-// undefined
-a=undefined
-let b
-// console.log(typeof(a));
-console.log(typeof(b));
-// nan
-console.log("The a value is:"+a);
-a=20
-b="Three"
-console.log(b*a);
+// // premitive 
+// // number
+// let a = 10
+// // string
+// a="arun"
+// // boolean
+// a=true
+// // undefined
+// a=undefined
+// let b
+// // console.log(typeof(a));
+// console.log(typeof(b));
+// // nan
+// console.log("The a value is:"+a);
+// a=20
+// b="Three"
+// console.log(b*a);
 
-// non premitive
-//array
-let arr = [10,20,30,40,50]
-// index-> 0,1,2,3,4
-// length-> no of element = array length 1
-console.log(arr.length);
-console.log(arr[0]);
-console.log(arr[2]);
+// // non premitive
+// //array
+// let arr = [10,20,30,40,50]
+// // index-> 0,1,2,3,4
+// // length-> no of element = array length 1
+// console.log(arr.length);
+// console.log(arr[0]);
+// console.log(arr[2]);
 
-// object
-const person = {
-    name:"arun",
-    age:25,
-    city:"cbe",
-    course:["HTML","CSS","JS","NODE","MONGODB","EXPRESS"],
-    family:{
-        dad:"abc",
-        mom:"xyz",
-        siblings:{
-            brother:"Nill",
-            sister:"Nill"
-        }
-    }
+// // object
+// const person = {
+//     name:"arun",
+//     age:25,
+//     city:"cbe",
+//     course:["HTML","CSS","JS","NODE","MONGODB","EXPRESS"],
+//     family:{
+//         dad:"abc",
+//         mom:"xyz",
+//         siblings:{
+//             brother:"Nill",
+//             sister:"Nill"
+//         }
+//     }
+// }
+
+// console.log(person.name);
+// console.log(person.course[2]);
+// console.log(person.family.siblings.brother);
+
+
+// const datas = [
+//     {
+//         name:"arun",
+//         age:25,
+//         city:"cbe",
+//         course:["HTML","CSS","JS","NODE","MONGODB","EXPRESS"],
+//         family:{
+//             dad:"abc",
+//             mom:"xyz",
+//             siblings:{
+//                 brother:"Nill",
+//                 sister:"Nill"
+//             }
+//         }
+//     },
+//     {
+//         name:"bala",
+//         age:25,
+//         city:"cbe",
+//         course:["HTML","CSS","JS","NODE","MONGODB","EXPRESS"],
+//         family:{
+//             dad:"abc",
+//             mom:"xyz",
+//             siblings:{
+//                 brother:"Nill",
+//                 sister:"Nill"
+//             }
+//         }
+//     },
+//     {
+//         name:"bava",
+//         age:25,
+//         city:"cbe",
+//         course:["HTML","CSS","JS","NODE","MONGODB","EXPRESS"],
+//         family:{
+//             dad:"abc",
+//             mom:"xyz",
+//             siblings:{
+//                 brother:"Nill",
+//                 sister:"xxx"
+//             }
+//         }
+//     },
+//     {
+//         name:"deepa",
+//         age:25,
+//         city:"cbe",
+//         course:["HTML","CSS","JS","NODE","MONGODB","EXPRESS"],
+//         family:{
+//             dad:"abc",
+//             mom:"xyz",
+//             siblings:{
+//                 brother:"Nill",
+//                 sister:"Nill"
+//             }
+//         }
+//     }
+
+// ]
+
+
+
+
+// console.log(datas[2].family.siblings.sister);
+
+
+// conditional statement
+// if
+// let age = 14
+// if(age>18){
+//     console.log("Eligible to vote");    
+// }
+// // if else
+// if(age>18){
+//     console.log("Eligible to vote");    
+// }else{
+//     console.log("Not Eligible");
+    
+// }
+// // else if
+// if(age<13){
+//     console.log("child");
+    
+// }
+// else if(age>19){
+//     console.log("Adult");
+    
+// }
+// else{
+//     console.log("Teeanger");
+    
+// }
+// // nested if else
+// ug = 70
+// hsc=66
+// sslc=70
+
+// if(ug>=70){
+//     if(hsc>=70){
+//         if(sslc>=70){
+//             console.log("Eligible to interview");
+            
+//         }else{
+//             console.log("Rejected Based on sslc Mark");    
+//         }
+//     }else{
+//         console.log("Rejected Based on HSC Mark");
+//     }
+// }else{
+//     console.log("Rejected Based on UG Mark");
+    
+// }
+// switch
+// let chooseDay = "Friday"
+
+// let thisDay = new Date()
+// console.log(thisDay.getDay());
+// let day = thisDay.getDay();
+
+
+// switch(day){
+//     case 1:
+//         console.log("Class on Monday");
+//         break
+//     case 2:
+//         console.log("Class on Tuesday");
+//         break   
+//     case 3:
+//         console.log("Class on Wednesday");
+//         break
+//     case 4:
+//         console.log("Class on Thursday");
+//         break 
+//     case 5:
+//         console.log("Class on Friday");
+//         break 
+//     case 6:
+//         console.log("Class on Saturday"); 
+//         break
+//     default:
+//         console.log("Class on Sunday"); 
+// }
+
+
+
+// looping statement
+// while
+// while(condition){
+//     // statement
+// }
+// let count =0
+// while(count<11){
+//     if(count%2==0){
+//         console.log(count +"is Even");        
+//     }
+//     else{
+//         console.log(count +"is Odd");
+//     }
+//     count+=1
+// }
+
+
+// let count =1
+// while(count<=10){
+//     console.log("3","*",+ count +"="+(3*count));    
+//     ++count
+// }
+
+
+// B
+// Ba
+// Bav
+
+// array 
+let arr = [20,40,60,80,100]
+
+// console.log(arr[0]);
+// console.log(arr[1]);
+let a =0
+let total =0
+while(a<arr.length){
+    total +=arr[a]   //20+40 = 60+60 = 120 +80 = 200 +100 =300 
+    a++
 }
+console.log(total);
 
-console.log(person.name);
-console.log(person.course[2]);
-console.log(person.family.siblings.brother);
+// total of Array
 
-
-const datas = [
-    {
-        name:"arun",
-        age:25,
-        city:"cbe",
-        course:["HTML","CSS","JS","NODE","MONGODB","EXPRESS"],
-        family:{
-            dad:"abc",
-            mom:"xyz",
-            siblings:{
-                brother:"Nill",
-                sister:"Nill"
-            }
-        }
-    },
-    {
-        name:"bala",
-        age:25,
-        city:"cbe",
-        course:["HTML","CSS","JS","NODE","MONGODB","EXPRESS"],
-        family:{
-            dad:"abc",
-            mom:"xyz",
-            siblings:{
-                brother:"Nill",
-                sister:"Nill"
-            }
-        }
-    },
-    {
-        name:"bava",
-        age:25,
-        city:"cbe",
-        course:["HTML","CSS","JS","NODE","MONGODB","EXPRESS"],
-        family:{
-            dad:"abc",
-            mom:"xyz",
-            siblings:{
-                brother:"Nill",
-                sister:"xxx"
-            }
-        }
-    },
-    {
-        name:"deepa",
-        age:25,
-        city:"cbe",
-        course:["HTML","CSS","JS","NODE","MONGODB","EXPRESS"],
-        family:{
-            dad:"abc",
-            mom:"xyz",
-            siblings:{
-                brother:"Nill",
-                sister:"Nill"
-            }
-        }
-    }
-
-]
-
-
-
-
-console.log(datas[2].family.siblings.sister);
+//do while,,,
+//for
