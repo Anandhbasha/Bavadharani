@@ -311,26 +311,73 @@
 // Ba
 // Bav
 
-// array 
-let arr = [20,40,60,80,100]
+// // array 
+// let arr = [20,40,60,80,100]
 
-// console.log(arr[0]);
-// console.log(arr[1]);
-let a =0
-let total =0
-while(a<arr.length){
-    total +=arr[a]   //20+40 = 60+60 = 120 +80 = 200 +100 =300 
-    a++
-}
-console.log(total);
+// // console.log(arr[0]);
+// // console.log(arr[1]);
+// let a =0
+// let total =0
+// while(a<arr.length){
+//     total +=arr[a]   //20+40 = 60+60 = 120 +80 = 200 +100 =300 
+//     a++
+// }
+// console.log(total);
 
 // total of Array
 
 //do while,,,
+// do{
+//     console.log("Do while");
+    
+// }while(10>15)
 //for
+// for(let x=10;x>=1;x--){
+//     console.log(x);
+    
+// }
+// String
+let name  = "Bava"
+output = ""
+
+// 4
+// name[3] = 
+// for(let x =name.length-1;x>=0;x--){
+//     output+=name[x] 
+   
+    
+// }
+//  console.log(output);
+// array
 // forof
+let array = [10,20,30,40,50]
+// for(let i of array){
+//     console.log(i);    
+// }
 // for in
+// for(let i in array){
+//     console.log(array[i]);    
+// }
 // foreach
+// array.forEach((item)=>console.log(item))
 // map
-// reduce
+// array.map((item)=>console.log(item))
+// let total=0
+// array.forEach((item)=>total+=item)
+// console.log(total);
+
+// // reduce
+// const tot = array.reduce((sum,acc)=>(sum+acc))
+// console.log(tot);
+
 // filter
+for (let x of array){
+    if(x%3===0){
+        console.log(x);
+        
+    }
+}
+
+console.log(array.filter((item)=>(item%3===0)));
+
+
