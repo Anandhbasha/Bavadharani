@@ -415,114 +415,182 @@
 // // while(a<=5){
 // //     console.log("Welcome to functions")
 // //     a++
-// // }
+// // // }
 
 
-// // arraow
-// const totalMarks = (t,e,s)=>console.log (t+e+s)
+// // // arraow
+// // const totalMarks = (t,e,s)=>console.log (t+e+s)
 
-// totalMarks(80,90,92)
-// totalMarks(82,98,91)
-// totalMarks(88,91,92)
-// // ()=>{}
+// // totalMarks(80,90,92)
+// // totalMarks(82,98,91)
+// // totalMarks(88,91,92)
+// // // ()=>{}
 
-// // ananymous function
-// // let sum = function(a,b){
-// //     return a+b
-// // }
-// // console.log(sum(10,20));
-
-
-// //IFFI
-// const iff = (function(a,b){
-//     console.log(a+b);       
-// })
-
-// iff(10,20)
+// // // ananymous function
+// // // let sum = function(a,b){
+// // //     return a+b
+// // // }
+// // // console.log(sum(10,20));
 
 
-// array methods
-let arr = [40,22,66,71,32]
-// push
-arr.push(87)
-console.log(arr);
+// // //IFFI
+// // const iff = (function(a,b){
+// //     console.log(a+b);       
+// // })
 
-// pop
-arr.pop()
-console.log(arr);
+// // iff(10,20)
 
-//shift
-arr.shift()
-console.log(arr);
 
-// unshift
-arr.unshift(100)
-console.log(arr);
-
-//sort
-arr.sort()
-console.log(arr);
-arr.sort((a,b)=>a-b)
-
-// 100-22
-//78
-//22-32 = -10
-console.log(arr);
-
-// slice
-console.log(arr.slice(1,3));
-
-// indexof
-console.log(arr.indexOf(101));
-
-//find
-let finds = arr.find((item)=>item===22)
-console.log(finds);
-
-//includes
-console.log(arr.includes(22));
-
-//set
-let fruits = new Set()
-fruits.add("Apple")
-fruits.add("Banana")
-fruits.add("Kiwi")
-fruits.add("Kiwi")
-fruits.delete("Kiwi")
-console.log(fruits);
-// has
-console.log(fruits.has("Apple"));
-console.log(fruits.size);
-
-fruits.clear()
-console.log(fruits);
-// split
-let text = "we are learning js"
-let newtext = text.split(" ")
-console.log(newtext);
-// join
-let res = newtext.join(" ")
-console.log(res);
-
-// splice
-// start
-// deletecount
-//newvalue
-
-// arr[4] = 505
+// // array methods
+// let arr = [40,22,66,71,32]
+// // push
+// arr.push(87)
 // console.log(arr);
-// arr.splice(1,2)
+
+// // pop
+// arr.pop()
 // console.log(arr);
-arr.splice(2,0,572,324)
-console.log(arr);
+
+// //shift
+// arr.shift()
+// console.log(arr);
+
+// // unshift
+// arr.unshift(100)
+// console.log(arr);
+
+// //sort
+// arr.sort()
+// console.log(arr);
+// arr.sort((a,b)=>a-b)
+
+// // 100-22
+// //78
+// //22-32 = -10
+// console.log(arr);
+
+// // slice
+// console.log(arr.slice(1,3));
+
+// // indexof
+// console.log(arr.indexOf(101));
+
+// //find
+// let finds = arr.find((item)=>item===22)
+// console.log(finds);
+
+// //includes
+// console.log(arr.includes(22));
+
+// //set
+// let fruits = new Set()
+// fruits.add("Apple")
+// fruits.add("Banana")
+// fruits.add("Kiwi")
+// fruits.add("Kiwi")
+// fruits.delete("Kiwi")
+// console.log(fruits);
+// // has
+// console.log(fruits.has("Apple"));
+// console.log(fruits.size);
+
+// fruits.clear()
+// console.log(fruits);
+// // split
+// let text = "we are learning js"
+// let newtext = text.split(" ")
+// console.log(newtext);
+// // join
+// let res = newtext.join(" ")
+// console.log(res);
+
+// // splice
+// // start
+// // deletecount
+// //newvalue
+
+// // arr[4] = 505
+// // console.log(arr);
+// // arr.splice(1,2)
+// // console.log(arr);
+// arr.splice(2,0,572,324)
+// console.log(arr);
 
 
-//reverse
-arr.reverse((a,b)=>a-b)
-console.log(arr);
+// //reverse
+// arr.reverse((a,b)=>a-b)
+// console.log(arr);
 
 
 // toString
 // Number
 // toUpperCase
 // toLowerCase
+
+// const person = {
+//     name:"karthick",
+//     age:20,
+//     city:"CBE"
+// }
+
+
+// // destructure
+// const {name,city} = person
+// console.log(name);
+// console.log(city);
+
+// console.log(Object.keys(person));
+// console.log(Object.values(person));
+// console.log(Object.entries(person));
+
+
+// spread operator
+let arr = [10,20,30,40,50]
+let arr1 = [60,70,80,90,100]
+let arr2 = [...arr,...arr1]
+console.log(arr2);
+
+// rest operator
+let [first,second,...rest] = arr2
+console.log(first);
+console.log(second);
+console.log(rest);
+
+// template literals
+console.log(`The First value is:${first}`);
+
+// setTimout
+setTimeout(()=>{
+    console.log("Hello Welcome");
+    
+},5000)
+// setInterval
+let designation = "developer"
+
+setInterval(()=>{
+    // if(designation==="developer"){
+    //     designation="designer"
+        
+        
+    // }else{
+    //     designation="developer"
+    // }
+    // console.log(designation);
+    designation = designation==="developer"?"designer":"developer"
+    console.log(designation);
+    
+    
+},5000)
+// events
+// onclick
+const add = (a,b)=>{
+    console.log(a+b);
+    
+}
+// onchange
+
+const changes = (e)=>{
+    console.log(e.target.value);    
+}
+// onsubmit
+// onmousehover
