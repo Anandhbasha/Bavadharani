@@ -1,0 +1,10 @@
+.Card{
+    width: 350px;
+    height: 600px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px 2px rgba(173, 173, 173, 0.539);
+}
+.cardBtm > h2,p{
+    color: var(--code-bg);
+}
